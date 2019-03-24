@@ -1,0 +1,33 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "Some test api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustav Wadström",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0
+    }
+  }
+}

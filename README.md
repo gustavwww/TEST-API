@@ -1,2 +1,2 @@
 # TEST-API
-A simple rest-api for a conversation app.
+A simple restful api for a conversation app.
